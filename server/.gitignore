@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Create React App
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Express server
+/server/node_modules/
+/server/.env
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
